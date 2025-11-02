@@ -8,7 +8,7 @@
 
   
 
-    let countries_api_url = 'https://restcountries.com/v3.1/all'    
+    let countries_api_url = 'https://restcountries.com/v2/all?fields=flags,name,population,region,capital'
     let search_term;
     let countries_data;
     let load = false;
