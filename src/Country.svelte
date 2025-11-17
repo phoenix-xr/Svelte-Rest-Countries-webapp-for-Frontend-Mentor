@@ -9,7 +9,7 @@
 
     const navigate = useNavigate();
 
-    var url = "https://restcountries.com/v3.1/name/${country_name.toLowerCase()}?fullText=true&fields=flags,name,population,region,capital,tld,subregion";
+    var url = "https://restcountries.com/v3.1/name/${country_name}?fullText=true&fields=flags,name,population,region,capital,tld,subregion";
     async function get_country() {
         var res = await fetch(url);
         var data = await res.json();
@@ -34,7 +34,7 @@
         {:then country}
             <img src={country.flags.svg} alt="" class="flag" />
             <div class="content">
-                <div class="name">{country.name}</div>
+                <div class="name">{country.name.common}</div>
                 
                     <div class="info">
                         <div class="block">
