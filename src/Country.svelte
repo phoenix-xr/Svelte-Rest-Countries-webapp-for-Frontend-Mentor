@@ -9,7 +9,7 @@
 
     const navigate = useNavigate();
 
-    var url = "https://restcountries.com/v3.1/name/${country_name.toLowerCase()}?fullText=true&fields=flags,name,population,region,capital";
+    var url = "https://restcountries.com/v3.1/name/${country_name.toLowerCase()}?fullText=true&fields=flags,name,population,region,capital,tld,subregion";
     async function get_country() {
         var res = await fetch(url);
         var data = await res.json();
