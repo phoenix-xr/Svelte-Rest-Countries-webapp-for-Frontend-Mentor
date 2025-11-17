@@ -12,12 +12,12 @@
 <div class="grid_country" in:fly="{{ y: 50, duration: 500, delay: 300,opacity:0 }}">
 {#each countries_data as country}
 
-        <Link to={'country/'+country.cca3}>
+        <Link to={'country/'+country.name}>
         <div class="box" >
             <img class="flag"src={country.flags.svg} alt="">
             <div class="content">
                 <div class="name">
-                    {country.name.common}
+                    {country.name}
                 </div>
                 
                 <div class="block">
