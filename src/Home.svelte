@@ -37,7 +37,7 @@
         matched_terms = $filteredData.filter(country=>{
         if(search_term){
            
-                return country.name.common.toLowerCase().includes(search_term.toLowerCase())
+                return country.name.toLowerCase().includes(search_term.toLowerCase())
           
             
         }
@@ -48,7 +48,7 @@
         matched_terms = $countriesData.filter(country=>{
         if(search_term){
            
-                return country.name.common.toLowerCase().includes(search_term.toLowerCase())
+                return country.name.toLowerCase().includes(search_term.toLowerCase())
           
             
         }
