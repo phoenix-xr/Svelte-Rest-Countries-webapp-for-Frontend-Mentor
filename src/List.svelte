@@ -2,7 +2,7 @@
     import { Link } from 'svelte-navigator'
     import { fly } from 'svelte/transition'
 
-    let countries_api_url = 'https://restcountries.com/v3.1/all'    
+    let countries_api_url = "https://restcountries.com/v2/all?fields=flags,name,population,region,capital"
     
     export let countries_data;
     
