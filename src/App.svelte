@@ -16,7 +16,7 @@
     <Home/>
   </Route>
 
-  <Route path='country/*country_code' component={Country}/>
+  <Route path='country/*country_name' component={Country}/>
 
 </Router>
 
