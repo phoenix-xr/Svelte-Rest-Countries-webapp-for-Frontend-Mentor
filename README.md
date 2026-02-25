@@ -1,6 +1,6 @@
 # Challenge by Frontend Mentor
 
-### Live site link :- [Rest Countries](https://countries-rest-svelte.netlify.app/) 
+### Live site link :- [Rest Countries](https://where-in-countries.netlify.app/) 
 
 ## Libraries Used 
 
